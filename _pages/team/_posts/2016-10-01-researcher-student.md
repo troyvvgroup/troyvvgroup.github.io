@@ -1,7 +1,7 @@
 ---
 layout: member
 category: student
-title: Researcher Name
+title: Beck Hanscam
 image: beck.png
 role: PhD Student
 permalink: 'team/researcher-name'
