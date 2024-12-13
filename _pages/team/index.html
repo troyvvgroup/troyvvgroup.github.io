@@ -1,31 +1,30 @@
 ---
 title: "Team"
 layout: default
-excerpt: "RT2 Lab: Team members"
+excerpt: "Group Members"
 sitemap: false
 permalink: /team/
 ---
 
 <h1>{{page.title}}</h1>
 
-<!-- Staff -->
-
-<h2><a id="staff"></a>Principal Investigator</h2>
-{% assign members = site.posts | where: 'category', 'staff' | sort: 'date' %}
+<!-- PI -->
+<h2><a id="pi"></a>Principal Investigator</h2>
+{% assign members = site.posts | where: 'category', 'pi' | sort: 'date' %}
 {% for member in members %}
 <div class="card team-member-card">
     <div class="row mt-3">
         <div class="col-md-2">
-            <a href={{member.url}}>
-                <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}"
-                    class="card-img img-responsive img-thumbnail"
-            </a>
+            <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}"
+		 class="card-img img-responsive img-thumbnail">
         </div>
 
         <div class="col-md-10">
             <div class="card-body">
             <h4 class="card-title">{{ member.title }}</h4>
-            <p class="card-text">{{ member.role }}</p>
+            <p class="card-subtitle">{{ member.role }}</p>
+	    <p class="card-text">Office: {{ member.office }}</p>
+	    <p class="card-text">Email: <a href="mailto:{{ member.email }}">{{ member.email }}</a></p>
             </div>
         </div>
     </div>
