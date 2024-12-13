@@ -1,8 +1,8 @@
 ---
 layout: member
 category: student
-title: Beck Hanscam
-image: beck.png
+title: Oskar Weser
+image: oskar.png
 role: Post Doc
 permalink: 'team/researcher-name'
 social:
@@ -14,8 +14,9 @@ social:
     orcid: https://orcid.org/
     research-gate: https://www.researchgate.net/
 education:
- - PhD, Chemistry, University of California—Berkeley, 2023
- - BS, Mathematics and Chemistry, University of Puget Sound, 2016
+ - PhD, Chemistry, Max Planck Institute for Solid State Research, 2024
+ - B.Sc., Mathematics, Fernuniversität Hagen, 2021
+ - M.Sc. & B.Sc., Chemistry, Georg-August-University Göttingen, 2017 & 2014
 ---
 
-Here is a paragraph about Beck.
+Here is a paragraph about Oskar.
