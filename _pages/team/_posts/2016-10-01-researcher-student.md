@@ -3,7 +3,7 @@ layout: member
 category: student
 title: Beck Hanscam
 image: beck.png
-role: PhD Student
+role: Post Doc
 permalink: 'team/researcher-name'
 social:
     twitter: https://twitter.com/
