@@ -22,7 +22,7 @@ permalink: /team/
         <div class="col-md-10">
             <div class="card-body">
             <h4 class="card-title">{{ member.name }}</h4>
-            <p class="card-text">Office: {{ member.office }}</p>
+            <p class="card-text" style="margin-bottom: 0;">Office: {{ member.office }}</p>
             <p class="card-text">Email: <a href="mailto:{{ member.email }}">{{ member.email }}</a></p>
             </div>
         </div>
@@ -44,13 +44,13 @@ permalink: /team/
         <div class="col-md-10">
             <div class="card-body">
             <h4 class="card-title">{{ member.name }}</h4>
-            <p class="card-text">Office: {{ member.office }}</p>
+            <p class="card-text" style="margin-bottom: 0;">Office: {{ member.office }}</p>
             <p class="card-text">Email: <a href="mailto:{{ member.email }}">{{ member.email }}</a></p>
             {% for fellowship in member.fellowship -%}
-            <p class="card-text">- {{ fellowship }}</p>
+            <p class="card-text" style="margin:0">- {{ fellowship }}</p>
             {% endfor %}
             {% for edu in member.education -%}
-            <p class="card-text">- {{ edu }}</p>
+            <p class="card-text" style="margin:0">- {{ edu }}</p>
             {% endfor %}
             </div>
         </div>
@@ -72,13 +72,13 @@ permalink: /team/
         <div class="col-md-10">
             <div class="card-body">
             <h4 class="card-title">{{ member.name }}</h4>
-            <p class="card-text">Office: {{ member.office }}</p>
+            <p class="card-text" style="margin-bottom: 0;">Office: {{ member.office }}</p>
             <p class="card-text">Email: <a href="mailto:{{ member.email }}">{{ member.email }}</a></p>
             {% for fellowship in member.fellowship -%}
-            <p class="card-text">- {{ fellowship }}</p>
+            <p class="card-text" style="margin:0">- {{ fellowship }}</p>
             {% endfor %}
             {% for edu in member.education -%}
-            <p class="card-text">- {{ edu }}</p>
+            <p class="card-text" style="margin:0">- {{ edu }}</p>
             {% endfor %}
             </div>
         </div>
@@ -100,13 +100,13 @@ permalink: /team/
         <div class="col-md-10">
             <div class="card-body">
             <h4 class="card-title">{{ member.name }}</h4>
-            <p class="card-text">Office: {{ member.office }}</p>
+            <p class="card-text" style="margin-bottom: 0;">Office: {{ member.office }}</p>
             <p class="card-text">Email: <a href="mailto:{{ member.email }}">{{ member.email }}</a></p>
             {% for fellowship in member.fellowship -%}
-            <p class="card-text">- {{ fellowship }}</p>
+            <p class="card-text" style="margin:0">- {{ fellowship }}</p>
             {% endfor %}
             {% for edu in member.education -%}
-            <p class="card-text">- {{ edu }}</p>
+            <p class="card-text" style="margin:0">- {{ edu }}</p>
             {% endfor %}
             </div>
         </div>

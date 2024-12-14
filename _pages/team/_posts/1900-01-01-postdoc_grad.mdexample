@@ -1,4 +1,4 @@
----
+#---
 layout: member
 category: grad # pi, postdoc, grad, ugrad, alumni
 name: Tim Beaver # preferred name
@@ -11,5 +11,5 @@ fellowship:
 education:
   - PhD, Beaver Economics, MIT, 1918
   - Sc.B., Beaver Economics, MIT, 1917
----
+#---
 
