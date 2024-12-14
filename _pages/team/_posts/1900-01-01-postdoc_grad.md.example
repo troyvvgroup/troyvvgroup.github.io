@@ -1,7 +1,7 @@
 ---
 layout: member
 category: grad # pi, postdoc, grad, ugrad, alumni
-title: Tim Beaver # preferred name
+name: Tim Beaver # preferred name
 image: troy.png # upload image to images/team/
 office: 6-222
 email: timbeaver@mit.edu
