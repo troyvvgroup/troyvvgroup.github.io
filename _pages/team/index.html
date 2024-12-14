@@ -115,17 +115,12 @@ permalink: /team/
 {% endfor %}
 
 <!-- Alumni -->
-<h2><a id="postdoc"></a>Alumni</h2>
-{% assign members = site.posts | where: 'category', 'alumni' | sort: 'date' %}
-{% for member in members %}
+<h2><a id="alumni"></a>Alumni</h2>
+{% assign alumni = site.posts | where: 'category', 'alumni' %}
+{% for page in alumni %}
 <div class="card team-member-card">
     <div class="row mt-3">
-        <div class="col-md-10">
-            <div class="card-body">
-            <h4 class="card-title">{{ member.name }}</h4>
-            <h4 class="card-title">Former {{ member.role }}</h4>
-            <p class="card-text">- {{ member.current_position }}</p>
-            </div>
+        <div class="col-md-10">{{ page.content }}</div>
         </div>
     </div>
 </div>
