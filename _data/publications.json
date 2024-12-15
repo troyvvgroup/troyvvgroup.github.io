@@ -2,37 +2,45 @@
 	{
 		"id": "http://zotero.org/groups/2386072/items/NU9LTX7C",
 		"type": "article-journal",
-		"title": "Segmentation of Nuclei in Histopathology Images by Deep Regression of the Distance Map",
-		"container-title": "IEEE Transactions on Medical Imaging",
-		"page": "448-459",
-		"volume": "38",
-		"issue": "2",
-		"source": "IEEE Xplore",
-		"abstract": "The advent of digital pathology provides us with the challenging opportunity to automatically analyze whole slides of diseased tissue in order to derive quantitative profiles that can be used for diagnosis and prognosis tasks. In particular, for the development of interpretable models, the detection and segmentation of cell nuclei is of the utmost importance. In this paper, we describe a new method to automatically segment nuclei from Haematoxylin and Eosin (H&E) stained histopathology data with fully convolutional networks. In particular, we address the problem of segmenting touching nuclei by formulating the segmentation problem as a regression task of the distance map. We demonstrate superior performance of this approach as compared to other approaches using Convolutional Neural Networks.",
-		"DOI": "10.1109/TMI.2018.2865709",
+		"title": "Bootstrap Embedding for Molecules in Extended Basis Sets",
+		"container-title": "Journal of Chemical Theory and Computation",
+		"page": "",
+		"volume": "",
+		"issue": "",
+		"source": "",
+		"abstract": "Quantum embedding methods are powerful tools to exploit the locality of electron correlation, but thus far many wave function-in-wave function methods have focused on small (e.g., minimal) basis sets. One major challenge for extended basis sets lies in defining consistent atom- or fragment-localized orbitals in spite of the larger spatial extent of the underlying atomic orbitals. In this work, we modify a particular form of quantum embedding, bootstrap embedding (BE), to the case of extended basis sets. We find that using intrinsic atomic orbital (IAO) localization schemes alongside BE converges to ∼99.7% of the CCSD correlation energy in 3-21G, 6-311G, and cc-pVDZ basis sets for reasonably sized fragments. These results mark an important first step in extending the success of embedding methods to properly studying dynamic correlation.",
+		"DOI": "10.1021/acs.jctc.4c01267",
 		"author": [
 			{
-				"family": "Naylor",
-				"given": "P."
+				"family": "Tran",
+				"given": "H. K."
 			},
 			{
-				"family": "Laé",
+				"family": "Weisburn",
+				"given": "L. P."
+			},
+			{
+				"family": "Cho",
 				"given": "M."
 			},
 			{
-				"family": "Reyal",
-				"given": "F."
+				"family": "Weatherly",
+				"given": "S."
 			},
 			{
-				"family": "Walter",
+				"family": "Ye",
+				"given": "H."
+			},
+			{
+				"family": "Van Voorhis",
 				"given": "T."
 			}
 		],
 		"issued": {
 			"date-parts": [
 				[
-					"2019",
-					2
+					"2024",
+					12
 				]
 			]
 		}
