@@ -122,39 +122,79 @@
 		}
 	},
 		{
-		"id": "https://www.nature.com/articles/s41467-024-52368-5",
+		"id": "https://doi.org/10.1021/acs.jctc.4c01003",
 		"type": "article-journal",
-		"title": "Super-resolution techniques to simulate electronic spectra of large molecular systems",
-		"container-title": "Nature Communications",
-		"page": "",
-		"volume": "15",
-		"issue": "8001",
-		"source": "Nature",
-		"abstract": "An accurate treatment of electronic spectra in large systems with a technique such as time-dependent density functional theory is computationally challenging. Due to the Nyquist sampling theorem, direct real-time simulations must be prohibitively long to achieve suitably sharp resolution in frequency space. Super-resolution techniques such as compressed sensing and MUSIC assume only a small number of excitations contribute to the spectrum, which fails in large molecular systems where the number of excitations is typically very large. We present an approach that combines exact short-time dynamics with approximate frequency space methods to capture large narrow features embedded in a dense manifold of smaller nearby peaks. We show that our approach can accurately capture narrow features and a broad quasi-continuum of states simultaneously, even when the features overlap in frequency. Our approach is able to reduce the required simulation time to achieve reasonable accuracy by a factor of 20-40 with respect to standard Fourier analysis and shows promise for accurately predicting the whole spectrum of large molecules and materials.",
-		"DOI": "10.1038/s41467-024-52368-5",
+		"title": "Very-Large-Scale GPU-Accelerated Nuclear Gradient of Time-Dependent Density Functional Theory with Tamm–Dancoff Approximation and Range-Separated Hybrid Functionals",
+		"container-title": "Journal of Chemical Theory and Computation",
+		"page": "9018–9031",
+		"volume": "20",
+		"issue": "20",
+		"source": "ACS Publications",
+		"abstract": "Modern graphics processing units (GPUs) provide an unprecedented level of computing power. In this study, we present a high-performance, multi-GPU implementation of the analytical nuclear gradient for Kohn–Sham time-dependent density functional theory (TDDFT), employing the Tamm–Dancoff approximation (TDA) and Gaussian-type atomic orbitals as basis functions. We discuss GPU-efficient algorithms for the derivatives of electron repulsion integrals and exchange–correlation functionals within the range-separated scheme. As an illustrative example, we calculate the TDA-TDDFT gradient of the S1 state of a full-scale green fluorescent protein with explicit water solvent molecules, totaling 4353 atoms, at the ωB97X/def2-SVP level of theory. Our algorithm demonstrates favorable parallel efficiencies on a high-speed distributed system equipped with 256 Nvidia A100 GPUs, achieving >70% with up to 64 GPUs and 31% with 256 GPUs, effectively leveraging the capabilities of modern high-performance computing systems.",
+		"DOI": "10.1021/acs.jctc.4c01003",
 		"author": [
 			{
-				"family": "Kick",
-				"given": "M."
+				"family": "Kim",
+				"given": "I."
 			},
 			{
-				"family": "Alexander",
-				"given": "E."
+				"family": "Jeong",
+				"given": "D."
 			},
 			{
-				"family": "Beiersdorfer",
+				"family": "Weisburn",
+				"given": "L."
+			},
+			{
+				"family": "Alexiu",
 				"given": "A."
 			},
 			{
 				"family": "Van Voorhis",
 				"given": "T."
+			},
+			{
+				"family": "Rhee",
+				"given": "Y. M."
+			},
+			{
+				"family": "Son",
+				"given": "W."
+			},
+			{
+				"family": "Kim",
+				"given": "H."
+			},
+			{
+				"family": "Yim",
+				"given": "J."
+			},
+			{
+				"family": "Kim",
+				"given": "S."
+			},
+			{
+				"family": "Cho",
+				"given": "Y."
+			},
+			{
+				"family": "Jang",
+				"given": "I."
+			},
+			{
+				"family": "Lee",
+				"given": "S."
+			},
+			{
+				"family": "Kim",
+				"given": "D. S."
 			}
 		],
 		"issued": {
 			"date-parts": [
 				[
 					"2024",
-					9
+					10
 				]
 			]
 		}
