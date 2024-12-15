@@ -7,7 +7,7 @@
 		"page": "",
 		"volume": "",
 		"issue": "",
-		"source": "",
+		"source": "ACS Publications",
 		"abstract": "Quantum embedding methods are powerful tools to exploit the locality of electron correlation, but thus far many wave function-in-wave function methods have focused on small (e.g., minimal) basis sets. One major challenge for extended basis sets lies in defining consistent atom- or fragment-localized orbitals in spite of the larger spatial extent of the underlying atomic orbitals. In this work, we modify a particular form of quantum embedding, bootstrap embedding (BE), to the case of extended basis sets. We find that using intrinsic atomic orbital (IAO) localization schemes alongside BE converges to ∼99.7% of the CCSD correlation energy in 3-21G, 6-311G, and cc-pVDZ basis sets for reasonably sized fragments. These results mark an important first step in extending the success of embedding methods to properly studying dynamic correlation.",
 		"DOI": "10.1021/acs.jctc.4c01267",
 		"author": [
@@ -46,39 +46,47 @@
 		}
 	},
 	{
-		"id": "http://zotero.org/groups/2386072/items/NU9LTX7C",
+		"id": "https://doi.org/10.1116/6.0003899",
 		"type": "article-journal",
-		"title": "Segmentation of Nuclei in Histopathology Images by Deep Regression of the Distance Map",
-		"container-title": "IEEE Transactions on Medical Imaging",
-		"page": "448-459",
-		"volume": "38",
-		"issue": "2",
-		"source": "IEEE Xplore",
-		"abstract": "The advent of digital pathology provides us with the challenging opportunity to automatically analyze whole slides of diseased tissue in order to derive quantitative profiles that can be used for diagnosis and prognosis tasks. In particular, for the development of interpretable models, the detection and segmentation of cell nuclei is of the utmost importance. In this paper, we describe a new method to automatically segment nuclei from Haematoxylin and Eosin (H&E) stained histopathology data with fully convolutional networks. In particular, we address the problem of segmenting touching nuclei by formulating the segmentation problem as a regression task of the distance map. We demonstrate superior performance of this approach as compared to other approaches using Convolutional Neural Networks.",
-		"DOI": "10.1109/TMI.2018.2865709",
+		"title": "Removing defects from sputter damage on InGaP surfaces using thermal atomic layer etching",
+		"container-title": "Journal of Vacuum Science & Technology A",
+		"page": "062602",
+		"volume": "42",
+		"issue": "6",
+		"source": "AIP Publishing",
+		"abstract": "Thermal atomic layer etching (ALE) was utilized to remove sputter damage from InGaP samples. Removal of sputter damage from InGaP surfaces was measured using x-ray photoelectron spectroscopy (XPS). Damage was identified by the shifted doublets in the P 2p region of the XPS spectrum. Density functional theory identified the damage as corresponding to the undercoordinated atoms in the InGaP lattice. InGaP substrates were sputtered with Ar+ ions at 500 eV or 2 keV as a model system to simulate the exposure of InGaP to energetic species during plasma processing. The InGaP thermal ALE process used sequential exposures of hydrogen fluoride for fluorination and either trimethylaluminum or dimethylaluminum chloride for ligand exchange at 300 °C. The XPS spectra revealed that InGaP thermal ALE successfully removed damage from sputtering. The area of the shifted doublets in the P 2p region was progressively reduced versus the number of ALE cycles. After ALE, the resulting XPS spectra were equivalent to the spectrum of an InGaP sample with no sputter damage. A bulklike XPS spectrum showing minimal damage was recovered after 50 ALE cycles for a sample initially exposed to 500 eV sputtering. Sputtering at 2 keV required 100 ALE cycles to largely remove the surface defects. The etch depth consistent with 100 ALE cycles indicated a damaged material depth of ∼5–6 nm. In addition, Auger electron spectroscopy (AES) revealed that the Ar AES signal from implanted Ar in InGaP after sputtering was also progressively removed versus the number of ALE cycles.",
+		"DOI": "10.1116/6.0003899",
 		"author": [
 			{
-				"family": "Naylor",
-				"given": "P."
+				"family": "Edel",
+				"given": "R."
 			},
 			{
-				"family": "Laé",
-				"given": "M."
+				"family": "Alexander",
+				"given": "E."
 			},
 			{
-				"family": "Reyal",
-				"given": "F."
-			},
-			{
-				"family": "Walter",
+				"family": "Nam",
 				"given": "T."
+			},
+			{
+				"family": "Cavanagh",
+				"given": "A. S."
+			},
+			{
+				"family": "Van Voorhis",
+				"given": "T."
+			},
+			{
+				"family": "George",
+				"given": "S. M."
 			}
 		],
 		"issued": {
 			"date-parts": [
 				[
-					"2019",
-					2
+					"2024",
+					11
 				]
 			]
 		}
