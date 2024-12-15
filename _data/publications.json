@@ -92,39 +92,31 @@
 		}
 	},
 		{
-		"id": "http://zotero.org/groups/2386072/items/NU9LTX7C",
+		"id": "https://doi.org/10.1021/acs.jpclett.4c02686",
 		"type": "article-journal",
-		"title": "Segmentation of Nuclei in Histopathology Images by Deep Regression of the Distance Map",
-		"container-title": "IEEE Transactions on Medical Imaging",
-		"page": "448-459",
-		"volume": "38",
-		"issue": "2",
-		"source": "IEEE Xplore",
-		"abstract": "The advent of digital pathology provides us with the challenging opportunity to automatically analyze whole slides of diseased tissue in order to derive quantitative profiles that can be used for diagnosis and prognosis tasks. In particular, for the development of interpretable models, the detection and segmentation of cell nuclei is of the utmost importance. In this paper, we describe a new method to automatically segment nuclei from Haematoxylin and Eosin (H&E) stained histopathology data with fully convolutional networks. In particular, we address the problem of segmenting touching nuclei by formulating the segmentation problem as a regression task of the distance map. We demonstrate superior performance of this approach as compared to other approaches using Convolutional Neural Networks.",
-		"DOI": "10.1109/TMI.2018.2865709",
+		"title": "Electron Correlation in 2D Periodic Systems from Periodic Bootstrap Embedding",
+		"container-title": "The Journal of Physical Chemistry Letters",
+		"page": "11992–12000",
+		"volume": "15",
+		"issue": "48",
+		"source": "ACS Publications",
+		"abstract": "Given the growing significance of 2D materials in various optoelectronic applications, it is imperative to have simulation tools that can accurately and efficiently describe electron correlation effects in these systems. Here, we show that the recently developed bootstrap embedding (BE) accurately predicts electron correlation energies and structural properties for 2D systems. Without explicit dependence on the reciprocal space sum (k-points) in the correlation calculation, our proof-of-concept calculations shows that BE can typically recover ∼99.5% of the total minimal basis electron correlation energy in 2D semimetal, insulator, and semiconductors. We demonstrate that BE can predict lattice constants and bulk moduli for 2D systems with high precision. Furthermore, we highlight the capability of BE to treat electron correlation in twisted bilayer graphene superlattices with large unit cells containing hundreds of carbon atoms. We find that as the twist angle decreases toward the magic angle, the correlation energy initially decreases in magnitude, followed by a subsequent increase. We conclude that BE is a promising electronic structure method for future applications to 2D materials.",
+		"DOI": "10.1021/acs.jpclett.4c02686",
 		"author": [
 			{
-				"family": "Naylor",
-				"given": "P."
+				"family": "Meitei",
+				"given": "O. R."
 			},
 			{
-				"family": "Laé",
-				"given": "M."
-			},
-			{
-				"family": "Reyal",
-				"given": "F."
-			},
-			{
-				"family": "Walter",
+				"family": "Van Voorhis",
 				"given": "T."
-			}
+			},
 		],
 		"issued": {
 			"date-parts": [
 				[
-					"2019",
-					2
+					"2024",
+					11
 				]
 			]
 		}
