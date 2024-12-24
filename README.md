@@ -10,7 +10,7 @@ It is derived from the great template provided by the
 Members are stored as markdown files under
 [_pages/team/_posts](_pages/team/_posts).
 
-Each new member `.md` file must look like [this](_pages/team/_posts/1900-01-01-postdoc_grad.mdexample):
+Each new member `.md` file must look like the following:
 
 ``` yaml
 ---
