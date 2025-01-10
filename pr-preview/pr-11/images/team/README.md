@@ -1,1 +1,0 @@
-Please resize your image to 450px-by-600px
