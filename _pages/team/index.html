@@ -15,8 +15,15 @@ permalink: /team/
 <div class="card team-member-card">
     <div class="row mt-3">
         <div class="col-md-2">
+            {% if member.hover != nil %}
             <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}"
-		 class="card-img img-responsive img-thumbnail">
+            onmouseover="this.src='{{ site.url }}{{ site.baseurl }}/images/hover/{{ member.hover }}'"
+            onmouseout="this.src='{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}'"
+            class="card-img img-responsive img-thumbnail">
+            {% else %}
+            <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}"
+            class="card-img img-responsive img-thumbnail">
+            {% endif %}
         </div>
 
         <div class="col-md-10">
@@ -38,8 +45,15 @@ permalink: /team/
 <div class="card team-member-card">
     <div class="row mt-3">
         <div class="col-md-2">
+            {% if member.hover != nil %}
             <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}"
-		 class="card-img img-responsive img-thumbnail">
+            onmouseover="this.src='{{ site.url }}{{ site.baseurl }}/images/hover/{{ member.hover }}'"
+            onmouseout="this.src='{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}'"
+            class="card-img img-responsive img-thumbnail">
+            {% else %}
+            <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}"
+            class="card-img img-responsive img-thumbnail">
+            {% endif %}
         </div>
 
         <div class="col-md-10">
@@ -66,8 +80,15 @@ permalink: /team/
 <div class="card team-member-card">
     <div class="row mt-3">
         <div class="col-md-2">
+            {% if member.hover != nil %}
             <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}"
-		 class="card-img img-responsive img-thumbnail">
+            onmouseover="this.src='{{ site.url }}{{ site.baseurl }}/images/hover/{{ member.hover }}'"
+            onmouseout="this.src='{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}'"
+            class="card-img img-responsive img-thumbnail">
+            {% else %}
+            <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}"
+            class="card-img img-responsive img-thumbnail">
+            {% endif %}
         </div>
 
         <div class="col-md-10">
@@ -88,14 +109,21 @@ permalink: /team/
 {% endfor %}
 
 <!-- Undergraduate Students -->
-<h2><a id="postdoc"></a>Undergraduate Students</h2>
+<h2><a id="ugrad"></a>Undergraduate Students</h2>
 {% assign members = site.posts | where: 'category', 'ugrad' | sort: 'date' %}
 {% for member in members %}
 <div class="card team-member-card">
     <div class="row mt-3">
         <div class="col-md-2">
+            {% if member.hover != nil %}
             <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}"
-		 class="card-img img-responsive img-thumbnail">
+            onmouseover="this.src='{{ site.url }}{{ site.baseurl }}/images/hover/{{ member.hover }}'"
+            onmouseout="this.src='{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}'"
+            class="card-img img-responsive img-thumbnail">
+            {% else %}
+            <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}"
+            class="card-img img-responsive img-thumbnail">
+            {% endif %}
         </div>
 
         <div class="col-md-10">
