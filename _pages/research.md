@@ -27,3 +27,10 @@ Most DFT studies of nanocrystals ignore thermal and ensemble effects, which prec
 
 We are also interested in examining exciton-phonon coupling, using the Huang-Rhys (HR) factor metric. Our findings suggest that the degree and effectiveness of surface passivation has a sizeable effect on the magnitude of exciton-phonon coupling. Successful passivation strategies for nanocrystals should not only minimize the number of trap states, but also reduce the spatial overlap between excitons and phonons, thereby lowering the HR factors.
 
+
+## Quantum Computing
+[//]: # "TODO: Add QM/QM/MM diagram after publication"
+Computational chemistry is one of the areas where quantum computing may have the most significant impact. Within electronic structure theory, different eigensolver algorithms, such as quantum phase estimation (QPE) and variational quantum eigensolver (VQE), can provide alternative pathways for calculating single-point energies of chemical Hamiltonians. Near-term quantum devices, however, lack the number of qubits and gate depth necessary to apply these algorithms to chemical systems of interest.
+
+Through our work with collaborators, we proposed a multiscale embedding approach that utilizes both quantum and classical computing resources. Starting from solvated protein complexes comprised of many atoms, we first choose a region of interest to treat on a quantum mechanical level. Then, within the quantum mechanical region, we use Bootstrap Embedding to partition the area into smaller chunks that produce smaller Hamiltonians amenable for near-term quantum devices. This results in a QM/QM/MM embedding that can efficiently exploit the capabilities of quantum computers to account for correlation effects. Other techniques in our papers allow fine-grained and systematic control over the required quantum resources and the target accuracy.
+
