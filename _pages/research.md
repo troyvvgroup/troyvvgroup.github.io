@@ -17,6 +17,7 @@ In the Van Voorhis group, we have developed a Schmidt Decomposition-based fragme
 
 Bootstrap Embedding has seen success in our group for lattice models and simple molecular systems. We have extended the success of Bootstrap Embedding to molecules, where fragments can be naturally defined based on atomic connectivity, in a variety of applications. Current work in our group focuses on improving and applying Bootstrap Embedding in the context of real molecules in large basis sets; applying Bootstrap Embedding to periodic systems; work with alternative wavefunction solver methods; and application towards quantum computing.
 
+[QuEmb](https://github.com/troyvvgroup/quemb)([Docs](https://vanvoorhisgroup.mit.edu/quemb)) is an open-source package for Bootstrap Embedding calculations actively developed in the group.
 
 ## Quantum Dots
 [//]: # "TODO: Add a cool diagram / picture"
