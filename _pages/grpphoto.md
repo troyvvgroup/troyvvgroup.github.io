@@ -5,7 +5,7 @@ excerpt: "Group Photos"
 sitemap: true
 permalink: /photos/
 images:
-- image: 2024_actc.jpg
+- image: 2024_actc.jpeg
   title: American Conference on Theoretical Chemistry (2024)
   subtitle: (L to R) Alexa, Shaun, Andrew, Ezra, & Leah
 ---
