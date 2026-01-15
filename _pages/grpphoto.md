@@ -6,8 +6,8 @@ sitemap: true
 permalink: /photos/
 images:
 - image: 20240712_trillium.jpg
-  title: Summer Get-together at the Trillium Beer Garden
-  subtitle: <2024> (L to R) Carina, Alexa, Leah, Shaun, Minsik, & Victor
+  title: Summer Get-together at the Trillium Beer Garden (2024)
+  subtitle: (L to R) Carina, Alexa, Leah, Shaun, Minsik, & Victor
 ---
 
 <!--- How to add new photo to this page --->
