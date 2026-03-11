@@ -28,7 +28,7 @@ images:
   subtitle: (L to R) Leah, Matthias, Ezra, Henry
 - image: 2021_zoom.jpeg
   title: Zoom-era group photo (2021)
-  subtitle: (L to R) Ali, Trooy, Oinam, Shicheng, Yu-Che, Matthias, Ezra, Andrew, Leah, Lexie, Henry, Jacqueline
+  subtitle: (L to R) Ali, Troy, Oinam, Shicheng, Yu-Che, Matthias, Ezra, Andrew, Leah, Lexie, Henry, Jacqueline
  
 
 ---
