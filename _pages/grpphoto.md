@@ -5,6 +5,9 @@ excerpt: "Group Photos"
 sitemap: true
 permalink: /photos/
 images:
+- image: 2026_capecod.jpg
+  title: Marconi Station - Summer Trip to Cape Cod (2026)
+  subtitle: (L to R) Minsik, Noah, Shaun, Alexa, & Hannah
 - image: 2025_dinner.jpg
   title: Group Hot Pot Dinner (2025)
   subtitle: (L to R) Minsik, Hannah, Linda, Ethan, Carina, Leah, Oskar, Hiro, Beck, Ethan, Alex, Noah
